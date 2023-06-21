@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade e media queries</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#onde-estamos">Onde estamos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h1>Faca de cozinha</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dicta est. Repellendus amet vel temporibus, minima ea pariatur cum accusamus dolore excepturi distinctio molestiae animi maxime placeat culpa veniam unde?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eius eligendi blanditiis iure quos doloremque et illo. Illum facilis tenetur in quas, laudantium accusamus sunt quae, voluptate ratione harum sint.</p>
+            </div>
+
+            <div class="image">
+                <picture>
+                    <source srcset="./image/3_pequena.png" media="(max-width: 600px)" />
+
+                    <img src="./image/3.png" alt="faca de cozinha">
+                </picture>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

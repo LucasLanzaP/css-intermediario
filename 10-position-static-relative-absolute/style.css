@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+.elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico {
+    position: static;
+    background-color: crimson;
+}
+
+.elemento-relativo {
+    position: relative;
+    left: 100px;
+    background-color: coral;
+}
+
+.elemento-absoluto {
+    left: 130px;
+    top: 10px;
+    position: absolute;
+    background-color: darkcyan;
+}
+
+.elemento-relativo-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 212, 212);
+}
+
+.elemento-absoluto-com-pai {
+    position: absolute;
+    right: o;
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+}

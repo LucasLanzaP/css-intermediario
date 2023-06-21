@@ -1,0 +1,42 @@
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url('./image/cat.jpg');
+    
+}
+
+.bg-image{
+    width: 400px;
+    height: 300px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 420px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 420px;
+}
+
+.bg-position{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+
+/* .bg-position {
+    height: 420px;
+    background: lightgreen url('./image/cat.jpg') no-repeat right top;
+} */
